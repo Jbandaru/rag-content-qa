@@ -10,7 +10,7 @@ DB_PATH = "chroma_db"
 EMBED_MODEL = "all-MiniLM-L6-v2"
 TOP_K = 4
 # Check console.groq.com for currently available models and override with GROQ_MODEL if needed
-LLM_MODEL = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
+LLM_MODEL = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")
 
 SYSTEM_PROMPT = (
     "You answer questions using ONLY the provided context excerpts. "
